@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.tar
+
+# Bicep/ARM parameters with secrets
+infra/bicep/parameters.json
